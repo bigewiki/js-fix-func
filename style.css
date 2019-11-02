@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee7e2;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+.outer-form-container {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 2px 4px 2px grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+#validator {
+  padding: 10px;
+}
+
+input,
+select,
+fieldset,
+textarea {
+  margin-top: 5px;
+  width: 400px;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  background-color: white;
+  padding: 5px;
+  font-size: 16px;
+}
+
+input:hover,
+select:hover,
+input:focus {
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.inner-form-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 20px;
+  width: 400px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  padding: 5px 10px 5px 10px;
+  font-family: "Roboto", sans-serif;
+  background-color: #0067b1;
+  color: white;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3285c0;
+  cursor: pointer;
+}
